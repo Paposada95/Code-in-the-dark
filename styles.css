@@ -1,0 +1,58 @@
+*{font-family: montserrat;}
+:root {
+    --green-blue: #34fcd8;
+    --pink: #e30451;
+    --dark-gray: #151515;
+}
+body{
+    width: 1400px;
+    background-image: url(assets/darth-vader.png);
+}
+main{
+    width: 670px;
+    justify-content: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+h1{
+    font-size: 4rem;
+    color: #151515;
+    text-align: center;
+}
+strong{
+    text-decoration: underline;
+}
+button{
+    background-color: var(--pink);
+    color: white;
+    text-align: center;
+    border-radius: 9px;
+    border: none;
+}
+img{
+    float: right;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: 30px;
+    padding: 15px;
+}
+section{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    width: 500px;
+    margin-top: 15px;
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+.storm{
+    color: var(--pink);
+    text-decoration: none;
+}
